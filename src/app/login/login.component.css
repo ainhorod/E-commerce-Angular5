@@ -56,12 +56,12 @@ button {
 }
 
 .auth-btn {
-    background: #3B8598;
+    background: #ffd9ff;
     color: white;
 }
 
 input.input-txt {
-    background: #fff !important;
+    background: #ffd9ff !important;
     padding: 0.5em 1em;
     font-size: 1.3em;
     border: 1px solid #BBBBBB;

@@ -39,7 +39,7 @@ export class CarritoComponent implements OnInit {
   }
 
   vaciarcarrito(){
-    this.cookieService.deleteAll;
+    this.cookieService.deleteAll();
     window.location.reload(true);
   }
 }

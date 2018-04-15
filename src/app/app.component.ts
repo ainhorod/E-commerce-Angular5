@@ -15,10 +15,10 @@ export class AppComponent {
   cookieValue = 'Anil Singh';
 
   save_localstorage () {
-    let name: string="Borja";
+    let name: string="Dementor";
 
     let person = {
-      name: "Adri",
+      name: "Pepe",
       age: 22,
       profesion: "it developer"
     }
@@ -29,12 +29,12 @@ export class AppComponent {
   }
 
   save_sessionstorage () {
-    let name: string="Gabumon";
+    let name: string="Juanita";
 
     let person = {
-      name: "Agumon",
+      name: "Paca",
       age: 18,
-      profesion: "Digimon"
+      profesion: "Programador"
     }
 
     sessionStorage.setItem("name", name);
