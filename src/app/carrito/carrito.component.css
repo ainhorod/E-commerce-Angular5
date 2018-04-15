@@ -1,0 +1,45 @@
+.btn-cool { 
+    color: #000000; 
+    background-color: #AF84E8; 
+    border-color: #A200FF; 
+  } 
+   
+  .btn-cool:hover, 
+  .btn-cool:focus, 
+  .btn-cool:active, 
+  .btn-cool.active, 
+  .open .dropdown-toggle.btn-cool { 
+    color: #000000; 
+    background-color: #EDC6F7; 
+    border-color: #A200FF; 
+  } 
+   
+  .btn-cool:active, 
+  .btn-cool.active, 
+  .open .dropdown-toggle.btn-cool { 
+    background-image: none; 
+  } 
+   
+  .btn-cool.disabled, 
+  .btn-cool[disabled], 
+  fieldset[disabled] .btn-cool, 
+  .btn-cool.disabled:hover, 
+  .btn-cool[disabled]:hover, 
+  fieldset[disabled] .btn-cool:hover, 
+  .btn-cool.disabled:focus, 
+  .btn-cool[disabled]:focus, 
+  fieldset[disabled] .btn-cool:focus, 
+  .btn-cool.disabled:active, 
+  .btn-cool[disabled]:active, 
+  fieldset[disabled] .btn-cool:active, 
+  .btn-cool.disabled.active, 
+  .btn-cool[disabled].active, 
+  fieldset[disabled] .btn-cool.active { 
+    background-color: #AF84E8; 
+    border-color: #A200FF; 
+  } 
+   
+  .btn-cool .badge { 
+    color: #AF84E8; 
+    background-color: #000000; 
+  }

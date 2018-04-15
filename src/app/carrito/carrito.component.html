@@ -1,0 +1,22 @@
+
+
+
+
+<div class="container" style="text-align: center;">
+  <h1>Tu carrito</h1>
+      <div *ngFor="let rutas of carrito " style="display: inline-flex;">
+        <ngb-alert type="info" [dismissible]="false">
+            <h3>{{ rutas.titulo }}</h3>
+            <img src="{{ rutas.foto }}" style="width: 300px; height: 200px;" alt="imagen-rutas"><hr>
+            <h3 class="btn btn-outline-info btn-lg btn-block">Precio:{{rutas.precio}}€<br>Personas:{{rutas.cantidad}}</h3>
+            <input type="button" class="btn btn-outline-danger " value="Eliminar viaje" (click)="borrarviaje(rutas.id)">
+           </ngb-alert>
+          
+      </div>
+      <div>
+      <a class="btn btn-outline-secondary btn-lg" >Precio total:{{total}}€</a>
+      
+      <a href="https://www.turitop.com/es/" class="btn btn-outline-secondary btn-lg" ><i class="far fa-address-book"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reservar</a>
+      
+      <input type="button" class="btn btn-outline-danger btn-lg " value="Vaciar carrito" (click)="vaciarcarrito()">
+    </div>

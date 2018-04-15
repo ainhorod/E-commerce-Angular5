@@ -1,0 +1,81 @@
+{
+  "contactos" : [ {
+    "_id" : "1",
+    "comentario" : "Hola tio me llamo ralph",
+    "fecha" : "02/01/2018",
+    "mail" : "adrian@gmail.com"
+  } ],
+  "rutas" : [ {
+    "_id" : "1",
+    "categoria" : "Ciudades",
+    "descripcion" : "Entra y reserva una deliciosa ruta por los mejores restaurantes de sushi en Japón.",
+    "fecha" : "15/03/2018",
+    "foto" : "/assets/imagenes/madrid.jpg",
+    "precio" : "59.99",
+    "titulo" : "Ruta del Sushi"
+  }, {
+    "_id" : "2",
+    "categoria" : "Festivales",
+    "descripcion" : "Descubre esta bonita festividad japonesa, con los mejores guías y la mejor comida.",
+    "fecha" : "19/03/2018",
+    "foto" : "/assets/imagenes/arenal.jpg",
+    "precio" : "79.99",
+    "titulo" : "Bon Odori"
+  }, {
+    "_id" : "3",
+    "categoria" : "Paraisos",
+    "descripcion" : "Disfruta de la playa la arena y el sol de esta fantástica isla japonesa.",
+    "fecha" : "23/03/2018",
+    "foto" : "/assets/imagenes/punta.jpg",
+    "precio" : "599.99",
+    "titulo" : "Okinawa"
+  }, {
+    "_id" : "4",
+    "categoria" : "Festivales",
+    "descripcion" : "¿Eres fan del manga y del anime? Esta feria es una visita obligada si te gusta el mundillo. No te decepcionará.",
+    "fecha" : "26/03/2018",
+    "foto" : "/assets/imagenes/tomorrow.jpg",
+    "precio" : "59.99",
+    "titulo" : "Comiket"
+  }, {
+    "_id" : "5",
+    "categoria" : "Ciudades",
+    "descripcion" : "¿Has oído hablar de la famosa 'ternera de Kobe' o Wagyu? Te ofrecemos aquí la posibilidad de degustar este delicioso alimentos en los mejores restaurantes de Tokyo.",
+    "fecha" : "29/03/2018",
+    "foto" : "/assets/imagenes/barcelona.jpg",
+    "precio" : "39.99",
+    "titulo" : "Ruta del Wagyu"
+  }, {
+    "_id" : "6",
+    "categoria" : "Paraisos",
+    "descripcion" : "Si siempre has querido visitar este mítico volcán japonés, no te pierdas esta interesantísima ruta que ofrecemos por el monte Fuji y los cinco lagos que lo rodean. El precio incluye la estancia en los hoteles durante 3 noches, además de la media pensión en los mismos.",
+    "fecha" : "01/04/2018",
+    "foto" : "/assets/imagenes/malvinas.jpg",
+    "precio" : "699.99",
+    "titulo" : "El monte Fuji y los cinco lagos"
+  }, {
+    "_id" : "7",
+    "categoria" : "Paraisos",
+    "descripcion" : "Comúnmente conocido como Dewa Sanzan Jinja (santuarios de las tres montañas sagradas de Dewa), que consta de tres capillas separadas: Dewa Santuario de la cima del Monte Haguro (alt. 414 m), Santuario en el monte Gassan Gassan (alt. 1984 m), y Yudono -san a mitad de camino al monte del santuario Yudono (alt. 1504 m).",
+    "fecha" : "04/04/2018",
+    "foto" : "/assets/imagenes/bora.jpg",
+    "precio" : "799.99",
+    "titulo" : "Yamagata"
+  }, {
+    "_id" : "8",
+    "categoria" : "Festivales",
+    "descripcion" : "En el verano japonés comienza la temporada de los fuegos artificiales o juegos pirotécnicos e iluminan el cielo en todas las regiones de Japón. Estos espectáculos, tienen lugar por lo general en julio o agosto y son ampliamente anunciados y se realizan a lo largo del archipiélago japonés.",
+    "fecha" : "07/04/2018",
+    "foto" : "/assets/imagenes/fest.jpg",
+    "precio" : "89.99",
+    "titulo" : "Hanabi"
+  }, {
+    "_id" : "9",
+    "categoria" : "Ciudades",
+    "descripcion" : "El té, junto al sake, es la bebida más consumida por los japoneses. Descubre con nosotros el delicado té matcha: visita los cultivos y asiste a la ceremonia del té. ¡La cata está incluída en el precio!",
+    "fecha" : "10/04/2018",
+    "foto" : "/assets/imagenes/sevilla.jpg",
+    "precio" : "69.99",
+    "titulo" : "Ruta del té"
+  } ]
+}

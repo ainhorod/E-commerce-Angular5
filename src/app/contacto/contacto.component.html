@@ -1,0 +1,30 @@
+<div class="container" [hidden]="submitted" style="text-align: center;">
+<h3>¿Quiere personalizar su viaje?</h3>
+<h3>¿Tiene alguna duda o sugerencia?</h3>
+<br>
+<h4>Contacte con nosotros sin compromiso.</h4>
+	<form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="mail">E-mail</label>
+        <input type="email" class="form-control" id="mail" required [(ngModel)]="contacto.mail" name="mail">
+      </div>
+		<div class="form-group">
+      <label for="comentario">Comentario</label>
+      <textarea type="text" class="form-control" [(ngModel)]="contacto.comentario" name="comentario" id="comentario" rows="3" required></textarea>
+    </div>
+ 
+		<div class="form-group">
+      <label for="fecha">Fecha</label>
+      <input type="date" class="form-control" id="fecha" required [(ngModel)]="contacto.fecha" name="fecha">
+      <span class="input-group-addon">
+        <span class="glyphicon glyphicon-calendar"></span>
+      </span>	
+    </div>
+		<button type="submit" class="btn btn-outline-success">Enviar</button>
+	</form>
+</div>
+ 
+<div style="text-align: center;" [hidden]="!submitted">
+	<h4>Su comentario ha sido enviado correctamente.</h4>
+	<button class="btn btn-outline-success" (click)="nuevoContacto()">Más</button>
+</div>
